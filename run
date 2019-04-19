@@ -1,0 +1,14 @@
+#!/bin/bash
+
+for i in {1..30}
+do
+   echo "###################Welcome $i times######################"
+   python traffic_light_control.py
+   python longest_seq_first.py
+   python static_time_control.py
+done
+
+
+
+
+
